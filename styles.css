@@ -1,0 +1,19 @@
+
+:root{--blue:#4f6fbf;--light:#f5f7ff;--ink:#23304a;--card:#fff;--green:#dff4df;--mid:#dfeeff;--orange:#ffe3bf}
+*{box-sizing:border-box} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--light);color:var(--ink)}
+header{background:linear-gradient(135deg,#526fc2,#7d9be8);color:#fff;padding:18px 16px 14px;position:sticky;top:0;z-index:10}
+.title-wrap{display:flex;gap:12px;align-items:center}.mascot{font-size:34px}h1{font-size:21px;margin:0}header p{margin:3px 0 0}
+#installBtn{margin-top:10px;border:0;border-radius:10px;padding:9px 12px}
+nav{display:flex;overflow:auto;background:#fff;border-bottom:1px solid #ddd;position:sticky;top:86px;z-index:9}
+nav button{flex:0 0 auto;border:0;background:#fff;padding:12px 14px}nav button.active{color:var(--blue);font-weight:700;border-bottom:3px solid var(--blue)}
+main{padding:14px;max-width:900px;margin:auto}.view{display:none}.view.active{display:block}
+.card{background:var(--card);border-radius:16px;padding:16px;margin-bottom:14px;box-shadow:0 3px 14px rgba(0,0,0,.08)}
+label{display:block;font-weight:600;margin:12px 0 5px}input,textarea,select{width:100%;padding:11px;border:1px solid #c8cfdf;border-radius:10px;font:inherit;background:#fff}textarea{min-height:72px}
+.filters{display:grid;grid-template-columns:1fr;gap:10px}
+.ride{border-left:7px solid var(--blue)}.ride.morning{border-left-color:#57a763}.ride.midday{border-left-color:#4e95d9}.ride.evening{border-left-color:#ec9b3a}
+.ride-top{display:flex;justify-content:space-between;gap:10px}.ride h3{margin:0}.meta{font-size:13px;color:#59647a}.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}.done{display:flex;align-items:center;gap:8px;margin-top:10px}.done input{width:auto;transform:scale(1.35)}
+.badge{display:inline-block;padding:4px 8px;border-radius:999px;font-size:12px;margin:3px 4px 0 0;background:#edf0f7}.risk-Low{background:#dff4df}.risk-Moderate{background:#fff0b8}.risk-High{background:#ffd0a8}.risk-Very-High{background:#ffc4c4}
+.amy-tip,.wrigley-tip{background:#eef5ff;padding:12px;border-radius:12px}
+.check-item{display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #eee}.check-item input{width:auto;transform:scale(1.25)}
+.photo-row{display:grid;grid-template-columns:1fr 1fr auto;gap:8px;margin-top:10px}.photo-row button{border:0;border-radius:8px}
+@media(min-width:700px){.filters{grid-template-columns:2fr 1fr 1fr}}

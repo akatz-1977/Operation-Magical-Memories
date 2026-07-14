@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#4f6fbf">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>Operation: Magical Memories</title>
+</head>
+<body>
+<header>
+  <div class="title-wrap">
+    <div class="mascot" aria-label="Hidden Wrigley">🐶</div>
+    <div>
+      <h1>Operation: Magical Memories</h1>
+      <p>The Katz Family Vacation Planner</p>
+    </div>
+  </div>
+  <button id="installBtn" hidden>Add to Home Screen</button>
+</header>
+
+<nav id="tabs">
+  <button data-view="today" class="active">Today</button>
+  <button data-view="parks">Parks</button>
+  <button data-view="live">Live Planner</button>
+  <button data-view="bag">Park Bag</button>
+  <button data-view="night">End of Day</button>
+  <button data-view="photos">Photos</button>
+</nav>
+
+<main>
+<section id="today" class="view active">
+  <div class="card hero">
+    <h2>Today's Game Plan</h2>
+    <label>Park <input id="todayPark" placeholder="Magic Kingdom"></label>
+    <label>Top 3 must-do rides <textarea id="top3"></textarea></label>
+    <label>Cooling break plan <textarea id="cooling"></textarea></label>
+    <label>Meal plan <textarea id="meals"></textarea></label>
+    <label>Don't leave without… <textarea id="dontLeave"></textarea></label>
+    <p class="amy-tip"><strong>💙 Amy Tip:</strong> From about 1–4 p.m., favor indoor rides, shows, meals, and cooling breaks.</p>
+  </div>
+</section>
+
+<section id="parks" class="view">
+  <div class="filters card">
+    <select id="parkSelect"></select>
+    <select id="timeFilter">
+      <option value="">All times</option>
+      <option>Morning</option>
+      <option>Midday (A/C)</option>
+      <option>Midday</option>
+      <option>Evening</option>
+    </select>
+    <select id="whoFilter">
+      <option value="">Everyone + Some</option>
+      <option>Everyone</option>
+      <option>Some</option>
+      <option>Waiting</option>
+    </select>
+  </div>
+  <div id="rideList"></div>
+</section>
+
+<section id="live" class="view">
+  <div class="card">
+    <h2>Live Planner</h2>
+    <label>Current time <input id="liveTime" type="time"></label>
+    <label>Next ride <input id="nextRide"></label>
+    <label>Current wait <input id="currentWait" placeholder="35 min"></label>
+    <label>Backup ride <input id="backupRide"></label>
+    <label>Lightning Lane / Express return <input id="returnTime"></label>
+    <label>Mobile order pickup <input id="mobileOrder"></label>
+    <label>Cooling break <input id="coolingBreak"></label>
+    <label>Meet-up spot <input id="meetSpot"></label>
+    <label>Notes <textarea id="liveNotes"></textarea></label>
+  </div>
+</section>
+
+<section id="bag" class="view">
+  <div class="card">
+    <h2>Daily Park Bag Checklist</h2>
+    <div id="bagList"></div>
+  </div>
+</section>
+
+<section id="night" class="view">
+  <div class="card">
+    <h2>End-of-Day Checklist</h2>
+    <div id="nightList"></div>
+    <label>Favorite memory <textarea id="favoriteMemory"></textarea></label>
+    <p class="wrigley-tip"><strong>🐶 Wrigley says:</strong> Freeze the neck ice packs and charge the mini fans!</p>
+  </div>
+</section>
+
+<section id="photos" class="view">
+  <div class="card">
+    <h2>PhotoPass & Photo Tracker</h2>
+    <button id="addPhoto">+ Add photo reminder</button>
+    <div id="photoList"></div>
+  </div>
+</section>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

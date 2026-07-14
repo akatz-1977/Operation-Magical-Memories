@@ -1,0 +1,9 @@
+{
+  "name": "Operation: Magical Memories",
+  "short_name": "Magical Memories",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f7ff",
+  "theme_color": "#4f6fbf",
+  "icons": []
+}
