@@ -1,0 +1,445 @@
+{
+  "parks": {
+    "Magic Kingdom": [
+      [
+        "Adventureland",
+        "Pirates of the Caribbean",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Adventureland",
+        "Jungle Cruise",
+        "Some",
+        "Morning",
+        "Low"
+      ],
+      [
+        "Frontierland",
+        "Tiana's Bayou Adventure",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "Frontierland",
+        "Big Thunder Mountain Railroad",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "Liberty Square",
+        "Haunted Mansion",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Fantasyland",
+        "Seven Dwarfs Mine Train",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "Fantasyland",
+        "Peter Pan's Flight",
+        "Everyone",
+        "Morning",
+        "Low"
+      ],
+      [
+        "Fantasyland",
+        "it's a small world",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Fantasyland",
+        "The Many Adventures of Winnie the Pooh",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Fantasyland",
+        "Under the Sea – Journey of the Little Mermaid",
+        "Some",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Tomorrowland",
+        "Buzz Lightyear's Space Ranger Spin",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Tomorrowland",
+        "TRON Lightcycle / Run",
+        "Some",
+        "Morning",
+        "High"
+      ],
+      [
+        "Tomorrowland",
+        "Space Mountain",
+        "Some",
+        "Morning",
+        "Very High"
+      ],
+      [
+        "Tomorrowland",
+        "Tomorrowland PeopleMover",
+        "Waiting",
+        "Evening",
+        "Low"
+      ],
+      [
+        "Tomorrowland",
+        "Carousel of Progress",
+        "Some",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Main Street U.S.A.",
+        "Happily Ever After Fireworks",
+        "Everyone",
+        "Evening",
+        "Low"
+      ]
+    ],
+    "Animal Kingdom": [
+      [
+        "Asia",
+        "Kali River Rapids",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "Discovery Island",
+        "Zootopia: Better Zoogether!",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Africa",
+        "Kilimanjaro Safaris",
+        "Everyone",
+        "Morning",
+        "Low"
+      ],
+      [
+        "Pandora",
+        "Na'vi River Journey",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Asia",
+        "Expedition Everest",
+        "Some",
+        "Morning",
+        "High"
+      ],
+      [
+        "Pandora",
+        "Avatar Flight of Passage",
+        "Some",
+        "Morning",
+        "High"
+      ]
+    ],
+    "EPCOT": [
+      [
+        "World Discovery",
+        "Test Track",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "World Nature",
+        "The Seas with Nemo & Friends",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "World Celebration",
+        "Spaceship Earth",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "World Showcase – Norway",
+        "Frozen Ever After",
+        "Everyone",
+        "Morning",
+        "Low"
+      ],
+      [
+        "World Showcase – France",
+        "Remy's Ratatouille Adventure",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "World Discovery",
+        "Guardians of the Galaxy: Cosmic Rewind",
+        "Some",
+        "Evening",
+        "Very High"
+      ],
+      [
+        "World Nature",
+        "Soarin' Around the World",
+        "Some",
+        "Midday (A/C)",
+        "High"
+      ]
+    ],
+    "Hollywood Studios": [
+      [
+        "Sunset Boulevard",
+        "The Twilight Zone Tower of Terror",
+        "Everyone",
+        "Morning",
+        "High"
+      ],
+      [
+        "Star Wars: Galaxy's Edge",
+        "Star Wars: Rise of the Resistance",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "Toy Story Land",
+        "Slinky Dog Dash",
+        "Everyone",
+        "Morning",
+        "High"
+      ],
+      [
+        "Toy Story Land",
+        "Toy Story Mania!",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Echo Lake",
+        "Indiana Jones Epic Stunt Spectacular!",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Sunset Boulevard",
+        "Rock 'n' Roller Coaster",
+        "Some",
+        "Morning",
+        "Very High"
+      ],
+      [
+        "Star Wars: Galaxy's Edge",
+        "Millennium Falcon: Smugglers Run",
+        "Some",
+        "Evening",
+        "High"
+      ],
+      [
+        "Echo Lake",
+        "Star Tours – The Adventures Continue",
+        "Some",
+        "Midday (A/C)",
+        "Very High"
+      ],
+      [
+        "Hollywood Boulevard",
+        "Mickey & Minnie's Runaway Railway",
+        "Some",
+        "Midday (A/C)",
+        "Moderate"
+      ],
+      [
+        "Sunset Boulevard",
+        "Fantasmic!",
+        "Some",
+        "Evening",
+        "Low"
+      ]
+    ],
+    "Universal Studios Florida": [
+      [
+        "Woody Woodpecker's KidZone",
+        "E.T. Adventure",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "London / Diagon Alley",
+        "Hogwarts Express – King's Cross Station",
+        "Everyone",
+        "Midday (A/C)",
+        "Low"
+      ],
+      [
+        "Diagon Alley",
+        "Harry Potter and the Escape from Gringotts",
+        "Everyone",
+        "Morning",
+        "Very High"
+      ],
+      [
+        "New York",
+        "Revenge of the Mummy",
+        "Some",
+        "Morning",
+        "Very High"
+      ],
+      [
+        "Springfield",
+        "The Simpsons Ride",
+        "Some",
+        "Midday (A/C)",
+        "Very High"
+      ],
+      [
+        "New York",
+        "TRANSFORMERS: The Ride-3D",
+        "Some",
+        "Midday (A/C)",
+        "High"
+      ]
+    ],
+    "Islands of Adventure": [
+      [
+        "The Wizarding World of Harry Potter – Hogsmeade",
+        "Flight of the Hippogriff",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "Jurassic Park",
+        "Jurassic Park River Adventure",
+        "Everyone",
+        "Morning",
+        "Moderate"
+      ],
+      [
+        "Toon Lagoon",
+        "Popeye & Bluto's Bilge-Rat Barges",
+        "Everyone",
+        "Midday",
+        "Moderate"
+      ],
+      [
+        "Hogsmeade",
+        "Hagrid's Magical Creatures Motorbike Adventure",
+        "Everyone",
+        "Morning",
+        "High"
+      ],
+      [
+        "Jurassic Park",
+        "Jurassic World VelociCoaster",
+        "Some",
+        "Morning",
+        "Very High"
+      ],
+      [
+        "Marvel Super Hero Island",
+        "The Amazing Adventures of Spider-Man",
+        "Some",
+        "Midday (A/C)",
+        "High"
+      ],
+      [
+        "Marvel Super Hero Island",
+        "The Incredible Hulk Coaster",
+        "Some",
+        "Morning",
+        "Very High"
+      ]
+    ],
+    "Epic Universe": [
+      [
+        "How to Train Your Dragon – Isle of Berk",
+        "Fyre Drill",
+        "Everyone",
+        "Midday",
+        "Moderate"
+      ],
+      [
+        "The Wizarding World of Harry Potter – Ministry of Magic",
+        "Harry Potter and the Battle at the Ministry",
+        "Everyone",
+        "Morning",
+        "High"
+      ],
+      [
+        "Isle of Berk",
+        "Hiccup's Wing Gliders",
+        "Everyone",
+        "Morning",
+        "High"
+      ],
+      [
+        "Super Nintendo World",
+        "Mine-Cart Madness",
+        "Everyone",
+        "Morning",
+        "High"
+      ],
+      [
+        "Super Nintendo World",
+        "Yoshi's Adventure",
+        "Everyone",
+        "Midday",
+        "Low"
+      ],
+      [
+        "Dark Universe",
+        "Curse of the Werewolf",
+        "Some",
+        "Evening",
+        "High"
+      ],
+      [
+        "Super Nintendo World",
+        "Mario Kart: Bowser's Challenge",
+        "Some",
+        "Midday (A/C)",
+        "Very High"
+      ],
+      [
+        "Dark Universe",
+        "Monsters Unchained: The Frankenstein Experiment",
+        "Some",
+        "Midday (A/C)",
+        "Very High"
+      ],
+      [
+        "Celestial Park",
+        "Stardust Racers",
+        "Some",
+        "Evening",
+        "Very High"
+      ]
+    ]
+  }
+}
